@@ -7,5 +7,11 @@ pageRef = "blog"
 identifier = "Zju9eBsnzH"
 weight = 9_999
 
+[[main]]
+name = "Resume"
+url = "/resume/main.pdf"
+identifier = "84GQsoqQui"
+weight = 9_999
+
 [[footer]]
 none = "none"
