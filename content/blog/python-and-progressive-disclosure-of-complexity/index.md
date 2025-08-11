@@ -6,7 +6,7 @@ description: "My journey of moving away from Java to Python, then reluctantly pa
 tags: ["python", "programming", "java", "metaprogramming"]
 ---
 
-After hearing DHH talk about how [Ruby's metaprogramming expanded his mind](https://youtu.be/mTa2d3OLXhg?si=7wkc66P-9Dk0BFjX&t=84), it resonated with my early experiences with Python. I will admit that at this point in my programming journey, Python feels somewhat lukewarm and pales in comparison to some of the other languages that are *shinier* and aligns better with the style of programming that I've developed over time (enter Gleam, Elixir, Golang, etc.). But it would be remiss not to give Mr. Guido van Rossum's language my gratitude for what its given me.
+After hearing DHH talk about how [Ruby's metaprogramming expanded his mind](https://youtu.be/mTa2d3OLXhg?si=7wkc66P-9Dk0BFjX&t=84), it resonated with my early experiences with Python. I will admit that at this point in my programming journey, Python feels somewhat lukewarm and pales in comparison to some of the other languages that are 'shinier' and align better with the style of programming that I've developed over time (enter Gleam, Elixir, Golang, etc.). But I would be remiss not to give Mr. Guido van Rossum's language my gratitude for what its given me.
 
 <!-- [![DHH on Primeagen](https://img.youtube.com/vi/mTa2d3OLXhg/0.jpg)](https://youtu.be/mTa2d3OLXhg?si=7wkc66P-9Dk0BFjX&t=84)
 *DHH on the TopShelf, where he talks about his programming journey.* -->
@@ -60,7 +60,7 @@ This project flipped a switch in my brain. I already understood that writing pro
 
 However, my Python journey actually stops there. ICS 45C grabbed me by the collar to tell me all about C++. I was left with this unrequited feeling of wanting to do metaprogramming and also just going as deep as possible into one single language to find any other holy grails that Python was hiding from me.
 
-One of the main reasons why I had this kind of feeling can be attributed to the way that Python was designed, a design concept perfectly encapsulated by a term Chris Lattner said in a talk: **Progressive Disclosure of Complexity**. The beauty of Python and Ruby is that they are simple to start with, but empowers users with more advanced features if they continue to dig into the language. Designing a language that *progressively discloses complexity* makes for an elegant language that rewards curiosity and allows for these *a-ha* moments that both DHH and I have felt.
+One of the main reasons why I had this kind of feeling can be attributed to the way that Python was designed, a design concept perfectly encapsulated by a term Chris Lattner said in a talk: **Progressive Disclosure of Complexity**. The beauty of Python and Ruby is that they are simple to start with, but empowers users with more advanced features if they continue to dig into the language. Designing a language that *progressively discloses complexity* makes for an elegant language that rewards curiosity, and allows for these *a-ha* moments that have made a positive impact on me, DHH, and *hopefully* most other programmers.
 
 [^1]: Technically my first experience with programming was one of those old PBS Kids Flash games. I think it was an Arthur game where you had to program an itinerary for a bike ride that traversed a 2d grid while only having limited moves or something. It was kind of fun.
 
