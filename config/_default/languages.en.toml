@@ -1,0 +1,25 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Dennis Lustre"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+description = "Dennis Lustre's Personal Website"
+
+[[params.author.links]]
+envelope = "mailto:dennis.lustre.dev@gmail.com"
+
+[[params.author.links]]
+github = "https://github.com/dlustre"
+
+[[params.author.links]]
+linkedin = "https://www.linkedin.com/in/dlustre"
+
+["params.author"]
+name = "Dennis Lustre"
+headline = "Software engineer building scalable full-stack apps. Also produces electronic music and plays rhythm games."
