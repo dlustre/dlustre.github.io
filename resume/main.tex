@@ -1,0 +1,270 @@
+%-------------------------
+% Resume in Latex
+% Author: Dennis Lustre
+% Based off of: https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+% \usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage[margin=1in, top=1in, bottom=1in, headheight=0pt, headsep=0pt, footskip=4.08003pt]{geometry}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\usepackage{attachfile}
+\usepackage{setspace}
+
+\usepackage[normalem]{ulem}
+
+% \hypersetup{colorlinks, urlcolor=cyan}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\setstretch{.95}\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-4.8pt}
+}
+
+\newcommand{\resumeProjectHeading}[4]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-4.8pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4.8pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemiii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\usepackage{fontawesome}
+\usepackage{caption}
+
+% Redefinition, symbol included in link:
+
+\begin{document}
+
+\begin{center}
+  \textbf{\Huge Dennis Lustre} \\ \vspace{1pt}
+  \href{mailto:dennis.lustre.dev@gmail.com}{dennis.lustre.dev@gmail.com} $|$
+  \href{https://github.com/dlustre}{github.com/dlustre} $|$
+  \href{https://linkedin.com/in/dlustre}{linkedin.com/in/dlustre} $|$
+  \href{https://dennislustre.com}{dennislustre.com}
+\end{center}
+
+\section{Education}
+
+\resumeSubHeadingListStart
+\resumeSubheading
+{University of California, Irvine}{September 2020 - June 2024}
+{Bachelor of Science in Computer Science}{Irvine, CA}
+\resumeItemListStart
+\resumeItem{\textbf{GPA}: 3.63/4.0 (8x Dean's List)}
+\resumeItem{\textbf{Leadership \& Involvement}:  ICS Student Council Projects Committee, FUSION (Filipinx Undergraduate Scientist-Engineers in an Organized Network)}
+\resumeItem{\textbf{Courses}: Computer Vision, Artificial Intelligence, System Design, Data Structures \& Algorithms}
+% \resumeItem{\textbf{Leadership \& Involvement}: Software Sub-Team Lead for FUSION Engineering Project 23-24 $|$ Mentor at Filipinx Undergraduate Scientist-Engineers In An Organized Network}
+% \resumeItem{Selected Coursework: Data Structures, Algorithms, Web Crawling, Project in AI, Machine Learning and Data Mining, Computational Photography and Vision}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Experience}
+\resumeSubHeadingListStart
+
+% \resumeSubheading
+% {Backend Engineer}{September 2024 - Present}
+% {Entitled}{Remote}
+% \resumeItemListStart
+% \resumeItem{Developing REST APIs with Express.js, MongoDB, and AWS S3.}
+% \resumeItem{Built an analytics dashboard with \textbf{React} and Recharts to display time-series data.}
+% \resumeItemListEnd
+
+\resumeSubheading
+{Software Engineer}{March 2025 - Present}
+{Fuerte}{Hybrid}
+\resumeItemListStart
+\resumeItem{Developing a \textbf{React Native} app for professional networking and event scheduling in the healthcare industry, working closely with a lean startup team to implement new features in sprints.}  
+\resumeItem{Created a \textbf{TypeScript} monorepo and CI/CD workflows, enabling swift full-stack development and automatic deployments to \textbf{AWS} and app stores.} 
+\resumeItem{Implemented real-time features with \textbf{Pusher}, driving user engagement by displaying instant feedback for in-app messaging, event updates, and social network interactions.}   
+\resumeItem{Utilizing \textbf{Sentry} and \textbf{EAS} for troubleshooting bugs and shipping fixes to production same day.} 
+\resumeItemListEnd
+
+\resumeSubheading
+{Software Developer}{May 2024 - November 2024}
+{Boundary Remote Sensing Systems}{Remote}
+\resumeItemListStart
+\resumeItem{Built an automation pipeline in \textbf{Python} to generate reports with data visualizations tailored to geospatial data.}
+\resumeItem{Designed and implemented a \textbf{React} app for analyzing 3D geospatial data by integrating \textbf{Cesium} and interfacing with backend services using \textbf{Zustand}.}
+\resumeItemListEnd
+
+% \resumeSubheading
+% {Fullstack Developer}{November 2023 - Present}
+% {ICSSC}{Irvine, CA}
+% \resumeItemListStart
+% \resumeItem{Led front-end development by designing \textbf{Figma} mockups, creating mobile and web-responsive UI with \textbf{React Native}, and communicating with the API layer using \textbf{tRPC}.}
+% \resumeItem{Sped up back-end cron services by 50\% by optimizing async operations for \textbf{AWS Lambda} serverless functions.}
+% \resumeItem{Slashed setup and teardown times for PostgreSQL integration tests by 30\% by adopting \textbf{Testcontainers} to simplify database test suites in \textbf{Vitest}.}
+% % \resumeItem{\textbf{Built an events listing feature end-to-end} by utilizing \textbf{Cheerio} and \textbf{Axios} to scrape dining hall event data and display it on the app}
+% \resumeItemListEnd
+
+\resumeSubheading
+{Software Engineer Intern}{July 2023 - July 2024}
+{Thaddeus Resource Center}{Remote}
+\resumeItemListStart
+\resumeItem{Migrated a legacy Webflow app to \textbf{Next.js}, halving website costs.}
+\resumeItem{Managed a team of 6 web developers and accelerated their development by building a CI/CD pipeline, automating tests, builds, and deployments for staging and production using \textbf{GitHub Actions}.}
+\resumeItem{Assisted business operations by developing admin dashboards with \textbf{React} and \textbf{Firebase}.}
+% \resumeItem{Accelerated CI execution times by 50\% by parallelizing \textbf{Jest} and \textbf{Playwright} E2E test suites.}
+% \resumeItem{\textbf{Saved an estimated 3 hours of CI and developer time per week} by building a \textbf{CI/CD} pipeline with \textbf{GitHub Actions} and \textbf{PNPM}} \
+% \resumeItem{\textbf{Significantly improved code maintainability} by converting codebase from \textbf{JavaScript} to \textbf{TypeScript}, integrating \textbf{Zod} to ensure robust type safety, and achieving \textbf{100\%} adoption rate by leading a workshop for the development team}
+% \resumeItem{\textbf{Reduced total lines of code by 50\% (over 700 lines)} by engineering an efficient approach for a \textbf{React Native} app, using \textbf{React} components to dynamically render and populate 25+ screens}
+% \resumeItem{\textbf{Pioneered the introduction of testing practices:} Took initiative by implementing a \textbf{Jest}-based testing environment and authoring clear documentation for testing procedures to foster a culture of quality assurance within the team}
+% \resumeItem{\textbf{Mentored new interns, accelerating their onboarding process} with hands-on setup assistance, comprehensive repository walkthroughs, and navigating culture and organizations}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Projects}
+\resumeSubHeadingListStart
+
+% \resumeProjectHeading
+% {\textbf{NASA Radiation Microscopy Generative AI Model} $|$ \emph{Python, PyTorch Lightning} $|$ {\href{https://github.com/UC-Irvine-CS175/final-project-shenanigans}{\uline{GitHub}}}}{}
+% {ML pipeline designed to augment NASA's BPS Microscopy Dataset on AWS with synthetic radiation images}
+% {\href{https://github.com/UC-Irvine-CS175/final-project-shenanigans}{\uline{GitHub}}}
+% \resumeItemListStart
+% \resumeItem{Furthered research on the effects of cosmic radiation on astronauts by developing a Generative Adversarial Network to augment NASA's BPS microscopy dataset, generating images that mimic irradiated cells.}
+% \resumeItem{Classified images with 93\% accuracy on a large subset of the domain by leveraging ResNet101.}
+% % \resumeItem{Presented project results to NASA GeneLab scientists after developing the project in \textbf{Agile} sprints.}
+% \resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Kafka Broker Implementation} $|$ \emph{Rust} $|$ \href{https://github.com/dlustre/kafka-rust}{\uline{GitHub}}}{}
+{Kafka broker implementation in Rust}
+{\href{}{\uline{}}}
+\resumeItemListStart
+\resumeItem{Developed a Kafka broker that supports message consumption and partition listing.}
+\resumeItemListEnd
+
+% \resumeProjectHeading
+% {\textbf{Lox Interpreter} $|$ \emph{Golang} $|$ \href{https://github.com/dlustre/lox-interpreter-go}{\uline{GitHub}}}{}
+% {Interpreter for the Lox programming language}
+% {\href{}{\uline{}}}
+% \resumeItemListStart
+% \resumeItem{Developed a recursive descent parser and tree-walk interpreter for the Lox programming language.}
+% \resumeItem{Implemented mutable variables, scoped blocks, and leveraged errors-as-values to simplify static and runtime error handling.}
+% % \resumeItem{Utilized Delve to debug a pointer cycle that occurred during scope nesting.}
+% \resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Gesture-Controlled Robot Arm} $|$ \emph{C++, Arduino} $|$ \href{https://github.com/KamayGuys/KamayGuy}{\uline{GitHub}}}{}
+{Robotic arm that can be controlled by a user's hand gestures}
+{\href{}{\uline{}}}
+\resumeItemListStart
+\resumeItem{Led development of embedded software for a gesture-controlled robot arm using \textbf{Arduino} microcontrollers, Bluetooth modules, and flex sensors.}
+% \resumeItem{Led development of embedded systems software within a cross-functional team of 11 engineers for a gesture-controlled robot arm using \textbf{Arduino} microcontrollers, Bluetooth modules, and flex sensors.}
+\resumeItem{Won 1st place and 2 additional awards at the FUSIONCon competition: \textbf{Sponsor's Choice} and \textbf{Most Innovative Design}.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Redis Implementation} $|$ \emph{Elixir} $|$ \href{https://github.com/dlustre/redis-elixir}{\uline{GitHub}}}{}
+{Redis server implementation in Elixir}
+{\href{}{\uline{}}}
+\resumeItemListStart
+\resumeItem{Implemented a Redis server with support for RDB persistence and replication.}
+\resumeItemListEnd
+
+
+% \resumeProjectHeading
+% {\textbf{Audio Distortion VST Plugin} $|$ \emph{C++} $|$ \href{https://github.com/dlustre/llc-distortion}{\uline{GitHub}}}{}
+% {}
+% {\href{}{\uline{}}}
+% \resumeItemListStart
+% \resumeItem{Developed a standalone audio plugin by utilizing JUCE and performing in-DAW testing with FL Studio.}
+% \resumeItem{Implemented 3 distortion algorithms and a GUI with an output meter and parameter knobs.}
+% \resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Geospatial Web Game} $|$ \emph{TypeScript, React.js, Tailwind CSS} $|$ \href{https://github.com/dlustre/geodle}{\uline{GitHub}}}{}
+{Wordle-inspired game that challenges players to guess the Orange County city based on geospatial clues}
+{\href{https://geodle-seven.vercel.app/}{\uline{Demo}} $|$ \href{https://github.com/dlustre/geodle}{\uline{GitHub}}}
+\resumeItemListStart
+\resumeItem{Developed a browser game in 24 hours, utilizing a reverse geocoder to generate geospatial clues for players to guess Orange County cities.}
+\resumeItem{Won 2 awards at Data@UCI's Datathon competition: \textbf{People's Choice} and \textbf{Best Use of Melissa Data API}.}
+% \resumeItem{Managed development and deployment of the app with \textbf{Next.js} and \textbf{Vercel}.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+        \textbf{Programming Languages}{: JavaScript, C, C\#, Java, OCaml, SQL, HTML} \\
+        \textbf{Technologies}{: Node.js, Linux, Docker, AWS, NoSQL, NumPy, pandas, MySQL} \\
+        \textbf{Other}{: Visual Studio, Bash Shell Scripting, Powershell, GitLab, Agile, Scrum, Jira (Kanban)} \\
+        }}
+\end{itemize}
+
+\end{document}
