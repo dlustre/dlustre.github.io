@@ -6,7 +6,7 @@ description: "My journey of moving away from Java to Python, then reluctantly pa
 tags: ["python", "programming", "java", "metaprogramming"]
 ---
 
-After hearing DHH talk about how [Ruby's metaprogramming expanded his mind](https://youtu.be/mTa2d3OLXhg?si=7wkc66P-9Dk0BFjX&t=84), it resonated with my early experiences with Python. I will admit that at this point in my programming journey, Python feels somewhat lukewarm and pales in comparison to some of the other languages that are 'shinier' and align better with the style of programming that I've developed over time (enter Gleam, Elixir, Golang, etc.). But I would be remiss not to give Mr. Guido van Rossum's language my gratitude for what its given me.
+After hearing DHH talk about how [Ruby's metaprogramming expanded his mind](https://youtu.be/mTa2d3OLXhg?si=7wkc66P-9Dk0BFjX&t=84), it resonated with my early experiences with Python. I will admit that at this point in my programming journey, Python feels somewhat lukewarm and pales in comparison to some of the other languages that are 'shinier' and align better with the style of programming that I've developed over time (enter Gleam, Elixir, Golang, etc.). But I would be remiss not to give Guido van Rossum's language my gratitude for what its given me.
 
 <!-- [![DHH on Primeagen](https://img.youtube.com/vi/mTa2d3OLXhg/0.jpg)](https://youtu.be/mTa2d3OLXhg?si=7wkc66P-9Dk0BFjX&t=84)
 *DHH on the TopShelf, where he talks about his programming journey.* -->
@@ -34,13 +34,13 @@ What?
 
 I know that the code snippet shown in the book is going to write some words on the screen, but... **what *is* all this stuff**?
 
-At the time, I couldn't wrap my head around why we had to write things out in a certain way (`public static void main`? Huh?). I was confused. I really wanted to understand the semantics behind the syntax but I just ended up compartmentalizing my confusion -- I just shifted my focus on instead trying to learn what I could. As a result, I passed the class, but a lot of concepts felt blurry to me. Was it always going to be this way?
+At the time, I couldn't wrap my head around why we had to write things out in a certain way. I was confused. I really wanted to understand the semantics behind the syntax but I just ended up compartmentalizing my confusion -- I just shifted my focus on instead trying to learn what I could. As a result, I passed the class, but a lot of concepts felt blurry to me. Was it always going to be this way?
 
 ---
 
 ## Hello world, again
 
-Two years pass. Covid quarantine was still in full effect. I've enrolled at UCI as an undeclared undergrad and couldn't get admitted to the intro computer science class for two straight quarters. In these two years, I've written not one line of code. Java syntax was still floating somewhere in the back of my head, but I never would have thought that the next time I get to write Java would be after half a decade.
+Two years pass. The COVID-19 quarantine was still in full effect. I've enrolled at UCI as an undeclared undergrad and couldn't get admitted to the intro computer science class for two straight quarters. In these two years, I've written not one line of code. Java syntax was still floating somewhere in the back of my head, but I never would have thought that the next time I get to write Java would be after half a decade.
 
 During spring quarter, I've finally been enrolled into ICS 31: Intro to Python Programming. At this point, I was just happy to be able to finally do some coding again, and that gave me some wind in my sails. Upon starting this coursework, it was not long before I started to feel how much *nicer* it felt to write Python. The class had us learn using zyBooks, where Python's concise syntax was shown to me in little fun-sized animations. Didn't take long for me to buy into this shiny new Python and turn my back on that esoteric Java syntax. And that's exactly what I did for a while.
 
